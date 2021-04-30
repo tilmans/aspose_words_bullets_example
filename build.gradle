@@ -1,5 +1,9 @@
 plugins {
-    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = "Bullets"
 }
 
 group 'org.example'
@@ -14,10 +18,4 @@ repositories {
 
 dependencies {
     implementation group: 'com.aspose', name: 'aspose-words', version: '21.4', classifier: "jdk17"
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-}
-
-test {
-    useJUnitPlatform()
 }

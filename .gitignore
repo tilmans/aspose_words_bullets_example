@@ -4,3 +4,5 @@ out
 gradlew
 gradlew.bat
 HtmlBulletsExample.iml
+.gradle
+.idea
